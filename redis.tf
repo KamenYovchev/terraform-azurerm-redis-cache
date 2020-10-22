@@ -1,11 +1,4 @@
 
-provider "azurerm" {
-
-  version = "=2.28.0"
-  features {}
-
-}
-
 resource "azurerm_redis_cache" "redis_cache" {
   name                = var.name
   location            = var.location
